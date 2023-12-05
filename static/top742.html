@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE></TITLE>
+<SCRIPT language="JavaScript">
+<!--
+function _JumpURLinNewWindow(url) 
+{
+	if (url != ''){
+		theName  = "comp";
+		theValue = document.ysnFORM.comp.value;
+		document.cookie = theName + "="+escape(theValue)+";path=/KOWA-XP2/servlet/htrn0100_shonin;expires=Tue, 1-Jan-2030 00:00:00 GMT;";
+		theName  = "user";
+		theValue = document.ysnFORM.user.value;
+		document.cookie = theName + "="+escape(theValue)+";path=/KOWA-XP2/servlet/htrn0100_shonin;expires=Tue, 1-Jan-2030 00:00:00 GMT;";
+		window.open(url, '_blank');
+	}
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+	<FORM NAME="ysnFORM">
+		<INPUT type="hidden" name="comp" value="100">
+		<INPUT type="hidden" name="user" value="742">
+		<INPUT type="button" name="GoYsn" value="原稿料承認（USER_CD:742）" onclick="_JumpURLinNewWindow('http://' + location.host + '/KOWA-XP2/servlet/htrn0100_shonin');">
+	</FORM>
+</BODY>
+</HTML>
